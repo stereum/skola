@@ -1,0 +1,48 @@
+#headwrap {
+    height: 120px;
+    overflow: hidden;
+}
+
+    #imagewrap {
+        float: left;
+        transform: rotate(-30deg);
+    }
+    #logowrap{
+        /*float: left;*/
+        /*margin: 0;*/
+        position: center;
+       text-align: center;
+
+    }
+    #logowrap img {
+        margin: 0 auto;
+    }
+	
+	#nav li {
+		display:inline;
+		padding: 0 10px;
+	}
+	p {
+		border-top: 1px solid gray;
+	}
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+.sidebar, .rightColWrapper, .leftCol, .rightCol{
+    width: 100%;
+    float: left;
+    height: 50px;
+    border: solid 1px black;
+}
+
+.sidebar {
+    width: 40%;
+}
+.rightColWrapper {
+    width: 59%;
+}
+.leftCol, .rightCol {
+    width: 49%;
+}
