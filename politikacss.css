@@ -18,12 +18,25 @@
     #logowrap img {
         margin: 0 auto;
     }
-	
+
+	#nav {
+		border-bottom: 2px solid black;
+    		margin-bottom: 20px;
+	}
+		
+	#nav a {
+		text-decoration: none;
+	}
+
 	#nav li {
 		display:inline;
-		padding: 0 20px;
-		border-bottom: 1px solid black;
+		padding: 0 20px 14px;
+		border-bottom: 2px solid white; 
 		
+	}
+
+	#nav li:hover {
+		border-bottom: 2px solid black;		
 	}
 	
 	#headwrap {
@@ -39,7 +52,7 @@
 .sidebar, .rightColWrapper, .leftCol, .rightCol{
     width: 100%;
     float: left;
-    height: 50px;
+    min-height: 50px;
     border: solid 1px black;
 }
 
@@ -52,5 +65,15 @@
 .leftCol, .rightCol {
     width: 49%;
 }
+.striketrough-headline {
+	border-top: 2px solid black;
+	text-align: center;
+}
 
-	
+.striketrough-headline span {
+	position: relative;
+	background: white;
+	padding: 0.9em;
+	top: -12px;
+	text-transform:uppercase;
+}
