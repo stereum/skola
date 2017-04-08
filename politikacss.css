@@ -1,3 +1,8 @@
+body {
+	width:1000px;
+	margin: 0 auto;
+}
+
 #headwrap {
     height: 120px;
     overflow: hidden;
@@ -57,14 +62,38 @@
 }
 
 .sidebar {
-    width: 40%;
+    width: 25%;
 }
 .rightColWrapper {
-    width: 59%;
+    width: 74%;
 }
 .leftCol, .rightCol {
     width: 49%;
 }
+
+
+.sidebarMainBox .commentCount {
+	float:right;
+	padding: 4px 8px;
+}
+.sidebarCategory {
+	text-decoration:none;
+}
+.sidebarCategory:hover {
+	text-decoration:underline;
+	color: gray;
+}
+
+.sidebarHeading {
+	text-decoration:none;
+	color: black;
+}
+.sidebarHeading:hover {
+	text-decoration:underline;
+	
+}
+
+
 .striketrough-headline {
 	border-top: 2px solid black;
 	text-align: center;
@@ -77,3 +106,9 @@
 	top: -12px;
 	text-transform:uppercase;
 }
+.uppercase {
+	text-transform: uppercase;
+	font-size: 10px;
+	color: gray;
+}
+
